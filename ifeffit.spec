@@ -5,7 +5,7 @@ Summary:        IFEFFIT is an interactive program for XAFS analysis. It combines
 
 License:        BSD and GPLv2
 URL:            https://cars9.uchicago.edu/ifeffit/
-Source0:        https://github.com/newville/ifeffit/archive/refs/tags/1.2.13.tar.gz
+Source0:        https://github.com/bruceravel/ifeffit/archive/refs/heads/master.tar.gz
 
 BuildRequires:  gcc-gfortran
 BuildRequires:  readline-devel
@@ -51,5 +51,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/ifeffit/startup.iff
 
 %changelog
+* Thu Feb 26 2026 Stuart Campbell
+- Changed source to point to Bruce's fork
+
 * Sat Apr 10 2021 Stuart Campbell
 - Initial package
